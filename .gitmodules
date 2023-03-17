@@ -1,0 +1,12 @@
+[submodule "templates/typescript"]
+	path = templates/typescript
+	url = git@github.com:lean-mind/typescript-boilerplate.git
+[submodule "templates/flutter"]
+	path = templates/flutter
+	url = git@github.com:lean-mind/boilerplate-flutter.git
+[submodule "templates/java"]
+	path = templates/java
+	url = git@github.com:lean-mind/boilerplate-java.git
+[submodule "templates/kotlin"]
+	path = templates/kotlin
+	url = git@github.com:lean-mind/kotlin-katas-template.git

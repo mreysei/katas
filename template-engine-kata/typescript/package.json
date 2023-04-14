@@ -1,0 +1,28 @@
+{
+  "name": "template-engine-kata",
+  "version": "1.0.0",
+  "description": "Develop a templating library which replaces certain marked text using a dictionary of variables. The function takes two arguments, the template text and the dictionary. Expecting that the output will be the replaced text",
+  "homepage": "https://github.com/mreysei/katas/template-engine-kata/README.md",
+  "author": {
+    "name": "Michael Reyes (マイク)",
+    "email": "mreysei@hotmail.com",
+    "url": "https://www.mreysei.dev/"
+  },
+  "scripts": {
+    "lint": "eslint . --ext .ts",
+    "lint:fix": "npm run lint -- --fix",
+    "test": "jest --verbose",
+    "test:watch": "npm t -- --watchAll",
+    "test:coverage": "npm t -- --coverage"
+  },
+  "devDependencies": {
+    "@types/jest": "^29.4.0",
+    "@types/node": "^18.14.5",
+    "@typescript-eslint/eslint-plugin": "^5.54.0",
+    "@typescript-eslint/parser": "^5.54.0",
+    "eslint": "^8.35.0",
+    "jest": "^29.4.3",
+    "ts-jest": "^29.0.5",
+    "typescript": "^4.9.5"
+  }
+}

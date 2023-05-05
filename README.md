@@ -8,7 +8,7 @@ Las plantillas para las katas son las siguientes:
 - [Kotlin template](https://github.com/lean-mind/kotlin-katas-template) → lean-mind/kotlin-katas-template
 - [Flutter template](https://github.com/lean-mind/boilerplate-flutter) → lean-mind/boilerplate-flutter
 
-Las podrás encontrar todas dentro de la carpeta `/templates`
+Las podrás encontrar todas dentro de la carpeta `/.templates`
 
 Hay más disponibles entre las [plantillas de Lean Mind](https://github.com/orgs/lean-mind/repositories?type=template)
 
@@ -30,7 +30,7 @@ Hay más disponibles entre las [plantillas de Lean Mind](https://github.com/orgs
 1. Actualiza las templates
    - Si quieres actualizar todas puedes lanzar el comando `git submodule foreach git pull`
    - Si sólo quieres una en concreto, simplemente hace un `git pull` en la template deseada
-2. Dirígete a la carpeta `/templates` y elige la que más te guste
+2. Dirígete a la carpeta `/.templates` y elige la que más te guste
 3. Cópiala recursivamente en tu kata deseada, por ejemplo `/word-wrap/typescript`
 4. Elimina el directorio `.git` que hay en la kata para poder utilizar el control de versiones
 5. Enjoy! 🎉
@@ -39,7 +39,7 @@ Hay más disponibles entre las [plantillas de Lean Mind](https://github.com/orgs
 1. Busca la nueva template (hay varias disponibles entre los [repositorios de Lean Mind](https://github.com/orgs/lean-mind/repositories?type=template))
 2. Copia la url de clonación
    - Por ejemplo `git@github.com:lean-mind/typescript-boilerplate.git`
-3. Entra en la carpeta `/templates`
+3. Entra en la carpeta `/.templates`
 4. Lanza el comando para añadir un nuevo módulo `git submodule add <url> <name>`
    - Por ejemplo `git submodule add git@github.com:lean-mind/typescript typescript`
 5. Enjoy! 🎉

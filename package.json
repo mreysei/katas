@@ -1,0 +1,21 @@
+{
+  "name": "katas",
+  "version": "1.0.0",
+  "description": "Proyecto para añadir y modificar las katas",
+  "author": "Michael Reyes <mreysei@hotmail.com> (https://www.mreysei.dev/)",
+  "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/mreysei/katas.git"
+  },
+  "bugs": {
+    "url": "https://github.com/mreysei/katas/issues"
+  },
+  "homepage": "https://github.com/mreysei/katas#readme",
+  "scripts": {
+    "preupdate": "git submodule init && git submodule update",
+    "update": "git submodule foreach git checkout master && git submodule foreach git pull",
+    "new": "bash ./.scripts/new-kata.sh"
+  },
+  "devDependencies": {}
+}

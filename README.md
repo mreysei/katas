@@ -14,6 +14,10 @@ Hay más disponibles entre las [plantillas de Lean Mind](https://github.com/orgs
 
 ---
 
+## Procedimiento automático
+- Para actualizar todos los proyecto lanza el comando `npm run update`
+- Para crear una nueva kata lanza el comando `npm run new`
+
 ## Procedimientos
 
 ### Para descargar las templates

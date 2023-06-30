@@ -1,10 +1,11 @@
 #!/usr/bin/env bash
 
-
 echo "Creating a new kata..."
+echo
 
 echo "Name of kata folder:"
 read kataname
+echo
 
 echo "Write a number of repository:"
 repositories=($(ls .templates))
@@ -14,6 +15,7 @@ select repository in "${repositories[@]}"; do
     else 
         echo "Invalid option"
     fi
+    echo
 done
 
 if [[ ! -d $kataname ]]; then
@@ -27,5 +29,5 @@ if [[ ! -d $kataname/$repository ]]; then
     rm -rf $kataname/$repository/.git
     echo "Kata $kataname created in $kataname/$repository"
 else 
-    echo "Nothing has been done, $kataname/$repository was already created"
+    echo "Nothing has been done, ./$kataname/$repository was already created"
 fi

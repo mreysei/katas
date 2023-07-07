@@ -23,11 +23,16 @@ if [[ ! -d $kataname ]]; then
     mkdir $kataname
 fi
 
-if [[ ! -d $kataname/$repository ]]; then
+if [[ ! -f "$kataname/README.md" ]]; then
+    echo "Creating $kataname/README.md"
+    echo "# $kataname\n\nTo be define" > $kataname/README.md
+fi
+
+if [[ ! -d "$kataname/$repository" ]]; then
     echo "Creating the $repository template"
     cp -r .templates/$repository $kataname/$repository
     rm -rf $kataname/$repository/.git
-    echo "Kata $kataname created in $kataname/$repository"
+    echo "Kata $kataname created in ./$kataname/$repository"
 else 
     echo "Nothing has been done, ./$kataname/$repository was already created"
 fi

@@ -1,0 +1,23 @@
+{
+  "name": "mars-rover-kata-solution-1",
+  "version": "0.0.0",
+  "description": "Kata de Mars Rover (Solution 1)",
+  "type": "module",
+  "contributors": [
+    "Michael Reyes <michael.reyes@leanmind.es>"
+  ],
+  "license": "ISC",
+  "scripts": {
+    "test": "jest --verbose",
+    "test:watch": "jest --watchAll"
+  },
+  "dependencies": {
+    "ts-jest": "^28.0.8",
+    "ts-node": "^10.9.1"
+  },
+  "devDependencies": {
+    "@types/jest": "^29.0.0",
+    "jest": "^28.0.0",
+    "typescript": "^4.6.4"
+  }
+}

@@ -4,6 +4,7 @@ Repositorio específico para katas, incluyendo asimismo submódulos de templates
 
 Las plantillas para las katas son las siguientes:
 - [Typescript template](https://github.com/lean-mind/typescript-boilerplate) → lean-mind/typescript-boilerplate
+- [Typescript Property Based Testing template](https://github.com/mreysei/katas/tree/master/.templates/typescript-pbt) → mreysei/katas
 - [Java template](https://github.com/lean-mind/boilerplate-java) → lean-mind/boilerplate-java
 - [Kotlin template](https://github.com/lean-mind/kotlin-katas-template) → lean-mind/kotlin-katas-template
 - [Flutter template](https://github.com/lean-mind/boilerplate-flutter) → lean-mind/boilerplate-flutter
@@ -14,11 +15,11 @@ Hay más disponibles entre las [plantillas de Lean Mind](https://github.com/orgs
 
 ---
 
-## Procedimiento automático
+## Procedimientos automático
 - Para actualizar todos los proyecto lanza el comando `npm run update`
 - Para crear una nueva kata lanza el comando `npm run new`
 
-## Procedimientos
+## Procedimientos manuales
 
 ### Para descargar las templates
 

@@ -1,12 +1,16 @@
 [submodule ".templates/typescript"]
 	path = .templates/typescript
 	url = git@github.com:lean-mind/typescript-boilerplate.git
+	ignore = dirty
 [submodule ".templates/flutter"]
 	path = .templates/flutter
 	url = git@github.com:lean-mind/boilerplate-flutter.git
+	ignore = dirty
 [submodule ".templates/java"]
 	path = .templates/java
 	url = git@github.com:lean-mind/boilerplate-java.git
+	ignore = dirty
 [submodule ".templates/kotlin"]
 	path = .templates/kotlin
 	url = git@github.com:lean-mind/kotlin-katas-template.git
+	ignore = dirty

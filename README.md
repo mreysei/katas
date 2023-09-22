@@ -3,11 +3,13 @@
 Repositorio específico para katas, incluyendo asimismo submódulos de templates (boilerplates) para facilitar la creación de nuevas katas.
 
 Las plantillas para las katas son las siguientes:
+
 - [Typescript template](https://github.com/lean-mind/typescript-boilerplate) → lean-mind/typescript-boilerplate
 - [Typescript Property Based Testing template](https://github.com/mreysei/katas/tree/master/.templates/typescript-pbt) → mreysei/katas
 - [Java template](https://github.com/lean-mind/boilerplate-java) → lean-mind/boilerplate-java
 - [Kotlin template](https://github.com/lean-mind/kotlin-katas-template) → lean-mind/kotlin-katas-template
 - [Flutter template](https://github.com/lean-mind/boilerplate-flutter) → lean-mind/boilerplate-flutter
+- [C# template](https://github.com/jotamusik/CSharp-KataTemplate) → jotamusik/CSharp-KataTemplate
 
 Las podrás encontrar todas dentro de la carpeta `/.templates`
 
@@ -16,6 +18,7 @@ Hay más disponibles entre las [plantillas de Lean Mind](https://github.com/orgs
 ---
 
 ## Procedimientos automático
+
 - Para actualizar todos los proyecto lanza el comando `npm run update`
 - Para crear una nueva kata lanza el comando `npm run new`
 
@@ -30,6 +33,7 @@ Hay más disponibles entre las [plantillas de Lean Mind](https://github.com/orgs
   2. Lanza el comando `git submodule update` para traertelos actualizados
 
 ### Para hacer una nueva kata
+
 ###### \* Antes debes hacer los pasos del procedimiento [para descargar las templates](#Para-descargar-las-templates)
 
 1. Actualiza las templates
@@ -41,6 +45,7 @@ Hay más disponibles entre las [plantillas de Lean Mind](https://github.com/orgs
 5. Enjoy! 🎉
 
 ### Para añadir una nueva template
+
 1. Busca la nueva template (hay varias disponibles entre los [repositorios de Lean Mind](https://github.com/orgs/lean-mind/repositories?type=template))
 2. Copia la url de clonación
    - Por ejemplo `git@github.com:lean-mind/typescript-boilerplate.git`
@@ -48,4 +53,3 @@ Hay más disponibles entre las [plantillas de Lean Mind](https://github.com/orgs
 4. Lanza el comando para añadir un nuevo módulo `git submodule add <url> <name>`
    - Por ejemplo `git submodule add git@github.com:lean-mind/typescript typescript`
 5. Enjoy! 🎉
-

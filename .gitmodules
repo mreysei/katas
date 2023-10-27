@@ -17,3 +17,4 @@
 [submodule ".templates/c-sharp"]
 	path = .templates/c-sharp
 	url = git@github.com:jotamusik/CSharp-KataTemplate.git
+	ignore = dirty

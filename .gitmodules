@@ -18,3 +18,6 @@
 	path = .templates/c-sharp
 	url = git@github.com:jotamusik/CSharp-KataTemplate.git
 	ignore = dirty
+[submodule ".templates/ts-testing-sostenible"]
+	path = .templates/ts-testing-sostenible
+	url = git@github.com:softwarecrafters-io/ts-eslint-prettier-jest.git

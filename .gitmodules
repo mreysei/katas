@@ -21,3 +21,6 @@
 [submodule ".templates/ts-testing-sostenible"]
 	path = .templates/ts-testing-sostenible
 	url = git@github.com:softwarecrafters-io/ts-eslint-prettier-jest.git
+[submodule ".templates/only-typescript"]
+	path = .templates/only-typescript
+	url = git@github.com:softwarecrafters-io/only-typescript.git

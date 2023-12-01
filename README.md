@@ -6,6 +6,8 @@ Las plantillas para las katas son las siguientes:
 
 - [Typescript template](https://github.com/lean-mind/typescript-boilerplate) → lean-mind/typescript-boilerplate
 - [Typescript Property Based Testing template](https://github.com/mreysei/katas/tree/master/.templates/typescript-pbt) → mreysei/katas
+- [Testing Sostenible Typescript template](https://github.com/softwarecrafters-io/ts-eslint-prettier-jest/) → softwarecrafters-io/ts-eslint-prettier-jest
+- [Only Typescript template](https://github.com/softwarecrafters-io/only-typescript/) → softwarecrafters-io/only-typescript
 - [Java template](https://github.com/lean-mind/boilerplate-java) → lean-mind/boilerplate-java
 - [Kotlin template](https://github.com/lean-mind/kotlin-katas-template) → lean-mind/kotlin-katas-template
 - [Flutter template](https://github.com/lean-mind/boilerplate-flutter) → lean-mind/boilerplate-flutter

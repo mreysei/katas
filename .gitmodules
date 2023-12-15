@@ -21,6 +21,12 @@
 [submodule ".templates/ts-testing-sostenible"]
 	path = .templates/ts-testing-sostenible
 	url = git@github.com:softwarecrafters-io/ts-eslint-prettier-jest.git
+	ignore = dirty
 [submodule ".templates/only-typescript"]
 	path = .templates/only-typescript
 	url = git@github.com:softwarecrafters-io/only-typescript.git
+	ignore = dirty
+[submodule "langton-ant-kata/kotlin"]
+	path = langton-ant-kata/kotlin
+	url = git@github.com:miguel-is-coding/langton-ant-kata.git
+	ignore = dirty
